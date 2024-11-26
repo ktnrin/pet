@@ -4,6 +4,12 @@ body {
   background-color: gray;
   font-family: "JetBrains Mono", monospace;
   box-sizing: border-box;
+  scrollbar-width: none;
+  overscroll-behavior: contain;
+}
+
+window {
+  scrollbar-width: none;
 }
 
 #scroll {
@@ -11,6 +17,11 @@ body {
   justify-content: start;
   overflow-x: auto;
   scrollbar-width: none;
+  overscroll-behavior: contain;
+}
+
+#void {
+  height: 250px;
 }
 
 /*Временное лого*/
@@ -61,4 +72,8 @@ body {
 .title {
   text-align: center;
   font-size: large;
+}
+
+.block img{
+  width: 1000px;
 }
