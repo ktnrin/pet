@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+  background-color: gray;
+  font-family: "JetBrains Mono", monospace;
+  box-sizing: border-box;
+}
+
+#scroll {
+  display: flex;
+  justify-content: start;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+/*Временное лого*/
+.logo div {
+  background-color: black;
+  width: 24px;
+  height: 24px;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_items {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  list-style: none; 
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card_img {
+  max-width: 235px;
+  max-height: 400px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px black;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+}
